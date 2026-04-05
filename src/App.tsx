@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-8 bg-green-700">
       <h1 className="text-4xl font-bold text-white">Dice Roller</h1>
-      <Die value={1} />
+      <Die initialValue={1} />
+      <Die initialValue={5} />
     </div>
   );
 }
